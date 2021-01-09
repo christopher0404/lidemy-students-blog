@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/christopher0404/lidemy-students-blog/static/css/main.994bfe4c.chunk.css",
+    "main.js": "/christopher0404/lidemy-students-blog/static/js/main.e1d33154.chunk.js",
+    "main.js.map": "/christopher0404/lidemy-students-blog/static/js/main.e1d33154.chunk.js.map",
+    "runtime-main.js": "/christopher0404/lidemy-students-blog/static/js/runtime-main.2a2655b9.js",
+    "runtime-main.js.map": "/christopher0404/lidemy-students-blog/static/js/runtime-main.2a2655b9.js.map",
+    "static/js/2.eb77f888.chunk.js": "/christopher0404/lidemy-students-blog/static/js/2.eb77f888.chunk.js",
+    "static/js/2.eb77f888.chunk.js.map": "/christopher0404/lidemy-students-blog/static/js/2.eb77f888.chunk.js.map",
+    "index.html": "/christopher0404/lidemy-students-blog/index.html",
+    "static/css/main.994bfe4c.chunk.css.map": "/christopher0404/lidemy-students-blog/static/css/main.994bfe4c.chunk.css.map",
+    "static/js/2.eb77f888.chunk.js.LICENSE.txt": "/christopher0404/lidemy-students-blog/static/js/2.eb77f888.chunk.js.LICENSE.txt",
+    "static/media/dots.7a649589.svg": "/christopher0404/lidemy-students-blog/static/media/dots.7a649589.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2a2655b9.js",
+    "static/js/2.eb77f888.chunk.js",
+    "static/css/main.994bfe4c.chunk.css",
+    "static/js/main.e1d33154.chunk.js"
+  ]
+}
