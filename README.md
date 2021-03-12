@@ -1,12 +1,38 @@
-# Getting Started with Create React App
+# Lidemy Students Blog
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a project of [Lidemy Mentor Program](https://github.com/Lidemy/mentor-program-4th).
 
-## Available Scripts
+I build this single-page application with [Create React App](https://github.com/facebook/create-react-app) and [Lidemy 學生專用 API Server](https://github.com/Lidemy/lidemy-student-json-api-server).
 
-In the project directory, you can run:
+![Lidemy Students Blog - Single Post Page](./screenshots/lidemy-students-blog-post.png)
 
-### `yarn start`
+You can edit and delete your own posts.
+
+![Lidemy Students Blog - Author's Posts Page](./screenshots/lidemy-students-blog-authorPosts.png)
+
+You can view the articles of a specific author by clicking on the author's name.
+
+![Lidemy Students Blog - Article Pagination](./screenshots/lidemy-students-blog-pagination.png)
+
+You can view the specific number of pages of all posts. And the best part is that when you reload the page, it stays on the same page.
+
+![Lidemy Students Blog - Login Page](./screenshots/lidemy-students-blog-login.png)
+
+Warning! Since the passwords of this system are stored in plain text format, they will be changed to `Lidemy` in the backend, so each user's password will be the same.
+
+## Install
+
+This project uses [node](http://nodejs.org) and [npm](https://npmjs.com). Go check them out if you don't have them locally installed.
+
+```sh
+npm install
+```
+
+## Usage
+
+```sh
+yarn start
+```
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -14,12 +40,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
+```sh
+yarn build
+```
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -28,43 +51,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
