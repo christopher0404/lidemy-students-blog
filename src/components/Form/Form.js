@@ -44,3 +44,11 @@ export const ErrorMessage = styled.p`
   margin-bottom: 1rem;
   color: #BF616A;
 `;
+
+export const TogglePasswordVisibilityButton = styled.button`
+  position: absolute;
+  top: 2.5rem;
+  right: 0.75rem;
+  border: none;
+  padding: 0.25rem;
+`;

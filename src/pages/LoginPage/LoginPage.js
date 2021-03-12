@@ -4,7 +4,9 @@ import styled from 'styled-components';
 import { AuthContext } from '../../contexts';
 import { setAuthToken } from '../../utils';
 import { login, getMe } from '../../WebAPI';
-import { Form, FormControl, FormLabel, FormInput, FormSubmit, FormSubmitButton, ErrorMessage } from '../../components/Form';
+import { Form, FormControl, FormLabel, FormInput, FormSubmit, FormSubmitButton, ErrorMessage, TogglePasswordVisibilityButton } from '../../components/Form';
+import { ReactComponent as HideIcon } from '../../assets/images/hide.svg';
+import { ReactComponent as ShowIcon } from '../../assets/images/show.svg';
 
 const Main = styled.main`
   flex-grow: 1;
@@ -14,8 +16,15 @@ function LoginPage() {
   const history = useHistory();
   const { setUser } = useContext(AuthContext);
   const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
+  const [password, setPassword] = useState('Lidemy');
+  const [isPasswordVisible, setIsPasswordVisible] = useState(false);
+  const [passwordInputType, setPasswordInputType] = useState('password');
   const [errorMessage, setErrorMessage] = useState();
+
+  const togglePasswordVisibility = () => {
+    passwordInputType === 'password' ? setPasswordInputType('text') : setPasswordInputType('password');
+    setIsPasswordVisible(!isPasswordVisible);
+  }
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -46,7 +55,10 @@ function LoginPage() {
 
         <FormControl>
           <FormLabel htmlFor="password">Password</FormLabel>
-          <FormInput type="password" name="password" id="password" value={password} onChange={(e) => setPassword(e.target.value)} />
+          <FormInput type={passwordInputType} name="password" id="password" value={password} onChange={(e) => setPassword(e.target.value)} />
+          <TogglePasswordVisibilityButton type="button" aria-label="Show/Hide Password" title="Show/Hide Password" onClick={togglePasswordVisibility}>
+            {isPasswordVisible ? <ShowIcon /> : <HideIcon />}
+          </TogglePasswordVisibilityButton>
         </FormControl>
 
         {errorMessage && <ErrorMessage>{errorMessage}</ErrorMessage>}

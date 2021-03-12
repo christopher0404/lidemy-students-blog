@@ -1,1 +1,1 @@
-export { Form, FormControl, FormLabel, FormInput, FormSubmit, FormSubmitButton, ErrorMessage } from './Form';
+export { Form, FormControl, FormLabel, FormInput, FormSubmit, FormSubmitButton, ErrorMessage, TogglePasswordVisibilityButton } from './Form';
