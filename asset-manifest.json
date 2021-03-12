@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/lidemy-students-blog/static/css/main.994bfe4c.chunk.css",
-    "main.js": "/lidemy-students-blog/static/js/main.e1d33154.chunk.js",
-    "main.js.map": "/lidemy-students-blog/static/js/main.e1d33154.chunk.js.map",
+    "main.js": "/lidemy-students-blog/static/js/main.72e7d797.chunk.js",
+    "main.js.map": "/lidemy-students-blog/static/js/main.72e7d797.chunk.js.map",
     "runtime-main.js": "/lidemy-students-blog/static/js/runtime-main.639bbb1c.js",
     "runtime-main.js.map": "/lidemy-students-blog/static/js/runtime-main.639bbb1c.js.map",
     "static/js/2.c68757fd.chunk.js": "/lidemy-students-blog/static/js/2.c68757fd.chunk.js",
@@ -10,12 +10,14 @@
     "index.html": "/lidemy-students-blog/index.html",
     "static/css/main.994bfe4c.chunk.css.map": "/lidemy-students-blog/static/css/main.994bfe4c.chunk.css.map",
     "static/js/2.c68757fd.chunk.js.LICENSE.txt": "/lidemy-students-blog/static/js/2.c68757fd.chunk.js.LICENSE.txt",
-    "static/media/dots.7a649589.svg": "/lidemy-students-blog/static/media/dots.7a649589.svg"
+    "static/media/dots.7a649589.svg": "/lidemy-students-blog/static/media/dots.7a649589.svg",
+    "static/media/hide.2ba2a7de.svg": "/lidemy-students-blog/static/media/hide.2ba2a7de.svg",
+    "static/media/show.36ce5410.svg": "/lidemy-students-blog/static/media/show.36ce5410.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.639bbb1c.js",
     "static/js/2.c68757fd.chunk.js",
     "static/css/main.994bfe4c.chunk.css",
-    "static/js/main.e1d33154.chunk.js"
+    "static/js/main.72e7d797.chunk.js"
   ]
 }
