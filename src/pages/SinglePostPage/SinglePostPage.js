@@ -102,7 +102,7 @@ function SinglePost({ post, user, onDelete }) {
   const [isMoreOptionsActive, setIsMoreOptionsActive] = useState(false);
 
   const handleMoreOptionsActive = () => {
-    isMoreOptionsActive ? setIsMoreOptionsActive(false) : setIsMoreOptionsActive(true);
+    setIsMoreOptionsActive(!isMoreOptionsActive);
   }
 
   const removePopover = () => {

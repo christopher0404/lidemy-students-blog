@@ -10,6 +10,7 @@ export const Form = styled.form`
 `;
 
 export const FormControl = styled.div`
+  position: relative;
   margin-bottom: 2.5rem;
 `;
 
